@@ -8,7 +8,7 @@ const trim = (str, max) => (str.length > max ? `${str.slice(0, max - 3)}...` : s
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('urban')
-        .setDescription('Searches the urban dictionary for a word!')
+        .setDescription('Searches the urban dictionary for a word! 🏦')
         .addStringOption(option => option.setName('term').setDescription('Enter a term to search for')),
     async execute(interaction) {
         const term = interaction.options.getString('term');

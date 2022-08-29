@@ -6,7 +6,7 @@ const axios = require('axios');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('cat')
-        .setDescription('Shows a random cat image!'),
+        .setDescription('Shows a random 😺 image!'),
     async execute(interaction) {
         const catResult = await axios.get('https://api.thecatapi.com/v1/images/search');
         const reply = `${catResult.data[0].url}`;

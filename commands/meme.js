@@ -6,7 +6,7 @@ const snoowrap = require('snoowrap');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('meme')
-        .setDescription('A meme a day keeps sadness away!'),
+        .setDescription('A meme a day keeps sadness away! 😃'),
     async execute(interaction) {
         const memer = new snoowrap({
             userAgent: 'FRAILBOT',

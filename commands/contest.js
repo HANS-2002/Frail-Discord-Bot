@@ -8,7 +8,7 @@ const daysToAdd = 7;
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('contest')
-        .setDescription('Shows all cp contests within a week!'),
+        .setDescription('Shows all cp contests within a week! 💻'),
     async execute(interaction) {
         const contests = await axios.get('https://www.kontests.net/api/v1/all');
         const editedContests = new Array();

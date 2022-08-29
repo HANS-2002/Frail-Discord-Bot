@@ -6,7 +6,7 @@ const axios = require('axios');
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('dog')
-        .setDescription('Shows a random dog image!'),
+        .setDescription('Shows a random 🐶 image!'),
     async execute(interaction) {
         const dogResult = await axios.get('https://api.thedogapi.com/v1/images/search');
         const reply = `${dogResult.data[0].url}`;
