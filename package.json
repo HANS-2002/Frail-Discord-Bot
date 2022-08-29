@@ -1,0 +1,27 @@
+{
+  "name": "frail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^1.1.0",
+    "@napi-rs/canvas": "^0.1.29",
+    "axios": "^0.27.2",
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.1",
+    "jimp": "^0.16.1",
+    "snoowrap": "^1.23.0",
+    "undici": "^5.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "nodemon": "^2.0.19"
+  }
+}
